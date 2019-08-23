@@ -5,10 +5,12 @@
                 var newToolbarItem = document.createElement('span');
                 newToolbarItem.classList.add('show-channels-button');
                 newToolbarItem.classList.add('active');
-                newToolbarItem.classList.add(document.querySelector('[class*="toolbar"] span[class^="iconMargin"]').classList[0])
+                newToolbarItem.classList.add(document.querySelector('[class*="toolbar"]').classList[0])
                 newToolbarItem.style.width = '26px'
+                newToolbarItem.style.marginLeft = '20px'
+                newToolbarItem.style.marginRight = '10px'
                 newToolbarItem.style.position = 'relative'
-                newToolbarItem.style.top = '-2px'
+                newToolbarItem.style.top = '-27px'
                 newToolbarItem.style.display = 'flex'
                 newToolbarItem.style.flexDirection = 'column'
                 newToolbarItem.style.justifyContent = 'flex-start'
